@@ -1,6 +1,6 @@
 class Config:
     # Database Configuration
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:Laserface2024$@localhost/factory_db'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:password@localhost/your_db_name'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Secret Key for Sessions
