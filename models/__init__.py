@@ -9,3 +9,12 @@ from .product import Product
 from .order import Order
 from .customer import Customer
 from .production import Production
+
+# Control explicit exports
+__all__ = ["db", "Employee", "Product", "Order", "Customer", "Production"]
+
+# Optional logging for debugging purposes
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+logger.info("Database initialized and models imported.")
