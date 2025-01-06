@@ -8,7 +8,7 @@ class Config:
 
     # Database Configuration
     SQLALCHEMY_DATABASE_URI = os.getenv(
-        'DATABASE_URL', 'mysql+pymysql://root:Laserface2024$@localhost/factory_db'
+        'DATABASE_URL', 'mysql+pymysql://root:password@localhost/your_db_name'
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False  # Disable modification tracking for performance
     SQLALCHEMY_ECHO = False  # Set to True for SQL query logs (useful for debugging)
